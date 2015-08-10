@@ -1,0 +1,27 @@
+html{height: 100%}
+body{background: url("../images/body.png") center top;height: 100%}
+#mask{position:absolute;top: 0;left: 0; height: 100%;width: 100%;background: #000;opacity: 0.5;filter:alpha(opacity=50);display: none;}
+#searchTip{position:absolute; left:50%;margin-left: -490px; width: 980px;height: 800px;display: none;}
+#searchTip div{position: absolute;display: none;}
+#searchTip div a{position: absolute;width: 95px;height: 32px;text-indent: -999px;overflow: hidden;cursor: pointer;}
+#searchTip div span{position: absolute;width: 30px;height: 30px;text-indent: -999px;overflow: hidden;cursor: pointer;}
+
+.stepA{top:131px;left:-9px;width: 745px;height: 329px;background: url("../images/guide11.png");}
+.stepA a{top:231px;left: 490px;}
+.stepA span{top: 144px;left: 683px;}
+
+.stepB{top:2px;left:324px;width: 647px;height: 450px;background: url("../images/guide21.png");}
+.stepB a{top:308px;left: 146px;}
+.stepB span{top: 196px;right: 285px;}
+
+.stepC{top:294px;left:320px;width: 654px;height: 257px;background: url("../images/guide31.png");}
+.stepC a{top:156px;left: 403px;}
+.stepC span{top: 43px;left: 589px;}
+
+.stepD{top:81px;left:165px;width: 558px;height: 348px;background: url("../images/guide41.png");}
+.stepD a{top:246px;left: 306px;}
+.stepD span{top: 136px;left: 494px;}
+
+.stepE{top:79px;left:262px;width: 397px;height: 342px;background: url("../images/guide51.png");}
+.stepE a{top:247px;left: 152px;}
+
